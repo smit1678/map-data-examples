@@ -1,0 +1,57 @@
+{
+  "bounds": [
+    32.5854,
+    -5.3316,
+    43.1982,
+    6.1187
+  ],
+  "center": [
+    38.2544,
+    0.5273,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "schools",
+    "template_teaser": "School Name: {{{name}}}",
+    "fields": [
+      "name"
+    ]
+  },
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "point",
+      "extent": [
+        33.92749200000001,
+        -4.659708999999984,
+        41.88651,
+        5.289470000000005
+      ],
+      "id": "schools",
+      "class": "",
+      "Datasource": {
+        "file": "kenya-primary-locations-shape.shp",
+        "id": "schools",
+        "project": "kenya-schools-dots",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "schools"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp",
+  "name": "",
+  "description": "",
+  "legend": "Legend",
+  "attribution": ""
+}
